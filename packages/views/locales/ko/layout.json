@@ -6,12 +6,19 @@
     "issues": "태스크",
     "projects": "프로젝트",
     "autopilots": "오토파일럿",
+    "aso": "ASO",
     "agents": "에이전트",
     "squads": "스쿼드",
     "usage": "분석",
     "runtimes": "런타임",
     "skills": "스킬",
     "settings": "설정"
+  },
+  "aso": {
+    "refresh": "새로고침",
+    "open_in_new_tab": "새 탭에서 열기",
+    "not_configured_title": "ASO 주소가 설정되지 않았습니다",
+    "not_configured_body": "이 Multica 배포에 ASO 주소(예: http://localhost:3001)를 설정하세요."
   },
   "tab": {
     "issue": "태스크",

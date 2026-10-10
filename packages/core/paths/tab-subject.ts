@@ -98,6 +98,8 @@ export function parseTabSubject(url: string): TabSubject {
         : { kind: "page", page: "squads" };
     case "usage":
       return { kind: "page", page: "usage" };
+    case "aso":
+      return { kind: "page", page: "aso" };
     case "inbox":
       return {
         kind: "inbox",

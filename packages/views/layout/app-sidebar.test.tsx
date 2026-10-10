@@ -142,6 +142,7 @@ vi.mock("@multica/core/paths", async (importOriginal) => ({
     issues: () => "/acme/issues",
     projects: () => "/acme/projects",
     autopilots: () => "/acme/autopilots",
+    aso: () => "/acme/aso",
     agents: () => "/acme/agents",
     squads: () => "/acme/squads",
     usage: () => "/acme/usage",
@@ -403,6 +404,16 @@ describe("navigation item presentation", () => {
         referenceClassName,
       );
     }
+  });
+
+  it("lists ASO in the work group, right after Autopilot", () => {
+    const { container } = renderWithI18n(<AppSidebar />);
+    const aso = container.querySelector('button[data-href="/acme/aso"]');
+    const autopilots = container.querySelector('button[data-href="/acme/autopilots"]');
+
+    expect(aso).toHaveTextContent("ASO");
+    // The mocked SidebarMenuItem renders no wrapper, so items are siblings.
+    expect(autopilots?.nextElementSibling).toBe(aso);
   });
 });
 

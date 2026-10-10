@@ -6,12 +6,19 @@
     "issues": "タスク",
     "projects": "プロジェクト",
     "autopilots": "オートパイロット",
+    "aso": "ASO",
     "agents": "エージェント",
     "squads": "スクワッド",
     "usage": "分析",
     "runtimes": "ランタイム",
     "skills": "スキル",
     "settings": "設定"
+  },
+  "aso": {
+    "refresh": "更新",
+    "open_in_new_tab": "新しいタブで開く",
+    "not_configured_title": "ASO のアドレスが未設定です",
+    "not_configured_body": "この Multica 環境に ASO のアドレス（例: http://localhost:3001）を設定してください。"
   },
   "tab": {
     "issue": "タスク",

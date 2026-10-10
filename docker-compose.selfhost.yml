@@ -230,6 +230,7 @@ services:
       DOCS_URL: ${DOCS_URL:-}
       NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-}
       NEXT_PUBLIC_WS_URL: ${NEXT_PUBLIC_WS_URL:-}
+      ASO_URL: ${ASO_URL:-}
     restart: unless-stopped
 
 volumes:

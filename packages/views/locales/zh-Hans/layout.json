@@ -6,12 +6,19 @@
     "issues": "任务",
     "projects": "项目",
     "autopilots": "自动化",
+    "aso": "ASO",
     "agents": "智能体",
     "squads": "小队",
     "usage": "统计",
     "runtimes": "运行时",
     "skills": "Skills",
     "settings": "设置"
+  },
+  "aso": {
+    "refresh": "刷新",
+    "open_in_new_tab": "在新标签页打开",
+    "not_configured_title": "未设置 ASO 地址",
+    "not_configured_body": "为此 Multica 部署设置 ASO 地址，例如 http://localhost:3001。"
   },
   "tab": {
     "issue": "任务",

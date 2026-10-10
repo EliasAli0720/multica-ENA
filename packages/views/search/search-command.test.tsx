@@ -217,6 +217,7 @@ vi.mock("@multica/core/paths", async (importOriginal) => ({
     issues: () => "/ws-test/issues",
     projects: () => "/ws-test/projects",
     autopilots: () => "/ws-test/autopilots",
+    aso: () => "/ws-test/aso",
     agents: () => "/ws-test/agents",
     squads: () => "/ws-test/squads",
     usage: () => "/ws-test/usage",

@@ -6,12 +6,19 @@
     "issues": "Tâches",
     "projects": "Projets",
     "autopilots": "Automatisation",
+    "aso": "ASO",
     "agents": "Agents",
     "squads": "Squads",
     "usage": "Statistiques",
     "runtimes": "Runtimes",
     "skills": "Skills",
     "settings": "Paramètres"
+  },
+  "aso": {
+    "refresh": "Actualiser",
+    "open_in_new_tab": "Ouvrir dans un nouvel onglet",
+    "not_configured_title": "Adresse ASO non définie",
+    "not_configured_body": "Définissez l’adresse ASO de ce déploiement Multica, par exemple http://localhost:3001."
   },
   "tab": {
     "issue": "Tâche",

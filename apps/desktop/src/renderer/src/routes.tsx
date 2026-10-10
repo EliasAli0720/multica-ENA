@@ -16,6 +16,7 @@ import { AttachmentPreviewRoute } from "./pages/attachment-preview-page";
 import { IssuesPage } from "@multica/views/issues/components";
 import { ProjectsPage } from "@multica/views/projects/components";
 import { DashboardPage } from "@multica/views/dashboard";
+import { AsoPage, DEFAULT_ASO_URL } from "@multica/views/aso";
 import { AutopilotsPage } from "@multica/views/autopilots/components";
 import { MyIssuesPage } from "@multica/views/my-issues";
 import { SkillsPage } from "@multica/views/skills";
@@ -156,6 +157,11 @@ export const appRoutes: RouteObject[] = [
             path: "autopilots/:id",
             element: <AutopilotDetailPage />,
             handle: { title: "Autopilot" },
+          },
+          {
+            path: "aso",
+            element: <AsoPage src={import.meta.env.VITE_ASO_URL || DEFAULT_ASO_URL} />,
+            handle: { title: "ASO" },
           },
           {
             path: "my-issues",
